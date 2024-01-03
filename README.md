@@ -21,3 +21,6 @@ Archivo para correr el script y que mande notificaciones push. Cambia el topic a
 ### co2_background_checker.service
 Archivo para generar el servicio que corra en segundo plano
 
+### MedidorCO2conPantalla.ino
+Archivo para tener el medidor con una pantalla conectado en una placa Arduino Uno
+
