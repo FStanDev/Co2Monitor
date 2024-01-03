@@ -1,0 +1,10 @@
+[Unit]
+Description=My Startup Script
+
+[Service]
+User=stan
+Type=simple
+ExecStart=/usr/bin/python3 /home/stan/Documents/co2_back/check_co2_service.py 
+
+[Install]
+WantedBy=default.target
